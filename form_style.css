@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(68 10 193);
+    padding:30px;
+}
+
+.container{
+    text-align: center;
+    width: 650px;
+    border-radius: 3%;
+    padding: 20px;
+    border:3px solid black;
+    box-shadow: 10px 20px rgb(0, 0, 0);
+    margin: auto;
+    
+}
+
+#title{color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{margin:10px;
+    box-shadow: 0.1px 3px rgb(0, 0, 0)
+
+}
+
+#descricao{color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+#form-title{color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.form-group{color: white;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.form-control{
+    background-color: #c8cccd;
+    margin: 7px;
+    border: 2px solid #5b5c5d;
+    display: block;
+    width: 96%;
+    height: 40px;
+    padding: 8px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+button{box-shadow: 3px 3px rgb(0, 0, 0);
+    margin: 10px;
+
+}
+
+.input-symbol-euro {
+    position: relative;
+}
+.input-symbol-euro input {
+    padding-left:18px;
+}
+.input-symbol-euro:before {
+    position: absolute;
+    top: 0;
+    content:"$";
+    left: 5px;
+}
